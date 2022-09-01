@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:flex-start;
+}
+/*configuração da pagina*/
+.titulo_h1{
+    color: red;
+}
+/* configuração de titulo */
+p{
+    color: bisque;
+}
+/* configuraão de paragrafos */
+#gitbash{
+    width: 250px;
+}
+#terminal{
+    width: 500px;
+}
+/* configuração de imagens */
+#comandos_texto{
+    width: auto;
+    height: auto;
+    background-color:darkslategray;
+    border: solid 1px red;
+}
