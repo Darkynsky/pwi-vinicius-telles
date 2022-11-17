@@ -10,13 +10,22 @@ button.addEventListener('click', function () {
     }
 });
 /* area de login encerra */
-/* campo de soma começa*/
+/* campo de calculo começa*/
 var Somar = document.querySelector(".Somar")
-var numero1 = document.getElementById('#numero1')
-var numero2 = document.getElementById('#numero2')
-var resultado
-resultado = numero1 + numero2
 
 Somar.addEventListener('click', function () {
-    alert(resultado )
+    
+var num1 = document.getElementById("numero1").value;
+var num2 = document.getElementById("numero2").value;
+var soma = Number(num1) + Number(num2) 
+    alert(soma)
+});
+var Subtrair = document.querySelector(".Subtrair")
+
+Subtrair.addEventListener('click', function () {
+    
+var num1 = document.getElementById("numero1").value;
+var num2 = document.getElementById("numero2").value;
+var subtrair = Number(num1) - Number(num2) 
+    alert(subtrair)
 });
