@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+#Total {}
+#cabecalho {
+    height: 100px;
+    width: auto;
+}
+#Logo {
+    background-color: brown;
+    height: 40px;
+    width: 100px;
+    float: left;
+}
+#menuTop {   
+    height: 40px;
+    width: auto;
+    border-top: solid 1px magenta;
+    border-bottom: solid 1px magenta;
+    bottom: 0;
+}
+#conteudoTotal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 550px;
+}
+#menuL {
+    min-height: 60px;
+    width: 200px;
+    float: left;
+    border: solid 1px transparent;
+    border-image: linear-gradient(to bottom, magenta, cyan);
+    border-image-slice: 1;
+    margin-right: 10px;
+}
+#menuR {
+    min-height: 60px;
+    width: 200px;
+    float: right;
+    border: solid 1px transparent;
+    border-image: linear-gradient(to bottom, magenta, cyan);
+    border-image-slice: 1;
+    margin-left: 10px;
+}
+/*configuração da div conteudo começa*/
+#conteudo {
+    min-height: 300px;
+    width: 700px;
+    float: left;
+}
+#conteudoTop {
+    border: solid 1px magenta;
+    height: 35px;
+}
+#conteudoMid {
+    border: solid 1px transparent;
+    border-image: linear-gradient(to bottom, magenta, cyan);
+    border-image-slice: 1;
+    min-height: 474px;
+    overflow-y: scroll;
+}
+/*barra de rolagem abaixo*/
+#conteudoMid::-webkit-scrollbar {
+    width: 20px;
+}
+#conteudoMid::-webkit-scrollbar-track {
+    border: solid 1px transparent;
+    border-image: linear-gradient(to bottom, magenta, cyan);
+    border-image-slice: 1;
+}
+#conteudoMid::-webkit-scrollbar-thumb {
+    background-color: cyan;
+    border: solid 1px transparent;
+    border-image: linear-gradient(to bottom, magenta, cyan);
+    border-image-slice: 1;
+}
+/*fim da barra de rolagem acima*/
+#conteudoBotton {
+    border: solid 1px cyan;
+    height: 35px;
+    bottom: 0;
+}
+/*configuração da div conteudo encerra*/
+#rodape {
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-top: solid 1px cyan;
+}
+/* login abaixo */
+#loginArea {
+    color: cyan;
+    right: 0;
+    position: absolute;
+}
+#LoginPopUp {
+    background: url("../img/LoginPopUp.png");
+    height: auto;
+    width: 185px;
+    display: none;
+    float: right;
+    border: solid 1px transparent;
+    border-image: linear-gradient(to bottom, magenta, cyan);
+    border-image-slice: 1;    
+}
+#action-btn-LoginArea {
+    height: 40px;
+    float: right;
+    border-radius: 10px;
+    background-color: black;
+    border-color: magenta;
+    color: cyan;
+}
+#action-btn-LoginArea:hover {
+    background-color: black;
+    border-color: cyan;
+    color: magenta;
+}
+input {
+    background-color: black;
+    color: cyan;
+    margin: 5px;
+    border-radius: 10px;
+    border-color: magenta;
+    text-align: center;
+}
+input:focus {
+    outline: none;
+    border-color: cyan;
+    color: magenta;
+}
+.campText {
+    height: 20px;
+    width: 170px;
+}
+/* fim login*/
+/* links config começa */
+a {
+    color: aqua;
+    text-decoration: none;
+}
+a:hover {
+    color: magenta;
+}
+/* links config encerra */
